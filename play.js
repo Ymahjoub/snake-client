@@ -15,7 +15,7 @@ const { setupInput } = require("./input");
 
 console.log("connecting...");
 const remoteConnection = connection();
-setupInput();
+setupInput(remoteConnection);
 
 
 // Begin game
