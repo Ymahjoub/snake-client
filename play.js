@@ -8,7 +8,7 @@ const { RemoteInterface } = require('./src/RemoteInterface')
 const game = new Game(new UserInterface(), new RemoteInterface())
 
 
-const { connection } = require("../client");
+const { connection } = require("./client");
 
 
 console.log("connecting...");
