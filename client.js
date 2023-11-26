@@ -12,12 +12,12 @@ const connection = function () {
   });
 
   conn.on("connect", () => {
-    console.log("connecte to the server");
+    console.log("connected to the server");
     conn.write("Name: YM")
   });
 
   conn.on("close", () => {
-    console.log("Conecction closed");
+    console.log("Connection closed");
   });
 
   conn.on("error", (err) => {
